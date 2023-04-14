@@ -1,34 +1,75 @@
-# Mailchain.gpt
-**Mailchain.gpt: Revolutionizing Web3 Communications with AI-Powered Messaging**
+# Mailchain.gpt Documentation
 
-A groundbreaking decentralized application that combines Mailchain and OpenAI to automate, schedule and enhance Web3 messaging
+This documentation provides an overview of the Mailchain.gpt Next.js SDK, including setup, customization, and usage.
 
-The dawn of Web3 has given birth to new possibilities and innovative solutions across the technological landscape. To capitalize on this potential, we have developed Mailchain.gpt, a decentralized application that leverages the power of OpenAI's GPT technology and the Mailchain protocol to provide a seamless messaging experience for Web3 users. This groundbreaking solution offers a streamlined communication process for advertisers and regular users alike.
+Table of Contents
 
-In this readme, we will dive into how Mailchain.gpt was created, the benefits it brings to the table, and how we implemented the AI and Mailchain Protocol to make this possible.
+Introduction
+Requirements
+Setup
+Configuration
+Customization
+API Integration
+Deployment
+Examples
+Support
+Introduction
+The Mailchain.gpt Next.js SDK is designed to simplify the integration of Mailchain.gpt's AI-powered Web3 messaging capabilities into your projects. By leveraging the power of Next.js, you can create a highly customizable and responsive frontend application that connects to the Mailchain.gpt API.
 
-**Mailchain.gpt:** The Next Step in Web3 Communications
-![smokeArtboard-1](https://user-images.githubusercontent.com/90069572/232109152-abc3a7c1-f6a7-44d0-b6a0-f57b696ed19f.png)
+Requirements
+Node.js (v12.x or later)
+Git
+Mailchain.gpt API key and endpoint
+Setup
+Clone the Mailchain.gpt Next.js repository:
 
-**Mailchain.gpt** combines the core Mailchain protocol, an open-source messaging standard designed for Web3, with OpenAI's GPT technology. This fusion creates a powerful decentralized application that allows users to send messages to multiple wallets, schedule messages in sequence, and even auto-respond using the OpenAI GPT. The result is a time-saving solution for advertisers and users alike, enabling rapid content distribution with just a sample message and a distribution schedule.
+bash
+Copy code
+git clone https://github.com/your-org/mailchain-gpt-nextjs-starter.git your-app-name
+Replace "your-app-name" with your desired application name.
 
-**The Frontend SDK:** Simplifying Mailchain.gpt Integration
-To make Mailchain.gpt accessible and easy to use, we developed a frontend SDK that allows users to quickly input their information, including their name, email, prompt, tone, and message schedule. Users can chain multiple messages and set them to be sent sequentially in timeframes ranging from minutes to months.
+Navigate to the app directory:
 
-**Harnessing AI and the Mailchain Protocol**
-The implementation of OpenAI's GPT technology in Mailchain.gpt allows the platform to intelligently and automatically craft messages based on user-provided prompts and tones. This automation not only saves time but also ensures that the messages are engaging and in line with the intended message.
+bash
+Copy code
+cd your-app-name
+Install the required dependencies:
 
-The Mailchain protocol, on the other hand, handles the secure and seamless communication between different Web3 addresses. With its end-to-end encryption, Mailchain.gpt ensures that your messages remain private while providing a smooth communication experience across various blockchain protocols.
+Copy code
+npm install
+Run the development server:
 
-**Benefits of Mailchain.gpt**
-Time-saving: By automating the message creation process using OpenAI's GPT, advertisers can focus on other aspects of their campaigns, significantly reducing the time spent on crafting messages.
+arduino
+Copy code
+npm run dev
+Configuration
+To Integrate the Mailchain.gpt API methods into your components for sending messages, scheduling sequences, and more. Use the .env file to set your MAILCHAIN.gpt api endpoint. For example, 
 
-**Flexibility:** Mailchain.gpt allows users to schedule and sequence messages, making it easy to tailor communication strategies according to the desired timeline.
+NEXT_PUBLIC_API_URL= <your endpoint>
 
-**Enhanced security:** Leveraging the Mailchain protocol's end-to-end encryption, Mailchain.gpt ensures that your messages are secure and protected from prying eyes.
+Customization
+You can customize the application's UI components and styles to match your branding. Modify the components in the components directory and update the styles in the styles directory. Adjust colors, fonts, and logos to create a consistent look and feel.
 
-**Cross-chain compatibility:** Mailchain.gpt supports communication across different blockchain protocols, eliminating the need for multiple messaging platforms.
 
-**Ease of use:** With the frontend SDK, integrating Mailchain.gpt into your existing systems is simple and hassle-free.
+Explore the Mailchain.gpt API documentation for more customization options and additional methods.
 
-In conclusion, Mailchain.gpt is a game-changing solution for Web3 communications, combining the power of OpenAI's GPT technology with the robust Mailchain protocol. By automating and scheduling messaging, Mailchain.gpt is poised to become the go-to platform for advertisers and users looking to optimize their Web3 communications. Embrace the future of messaging and experience the benefits of Mailchain.gpt today.
+To get your api endpoint you need to contact technoking@texaglo.com until the production is ready. 
+
+Deployment
+Deploy your application using platforms like Vercel or Netlify. For Vercel, follow these steps:
+
+Install the Vercel CLI:
+
+Copy code
+npm install -g vercel
+Run the following command to deploy:
+
+Copy code
+vercel
+Follow the prompts to complete the deployment process.
+
+Examples
+For sample usage and implementation, refer to the example components provided in the components directory of the repository.
+
+Support
+For any questions or assistance, please refer to the Mailchain.gpt documentation or reach out to the support team through the official channels.
