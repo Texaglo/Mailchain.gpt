@@ -9,6 +9,10 @@ Requirements
 Setup
 Configuration
 Customization
+
+https://user-images.githubusercontent.com/90069572/232144471-d7b9f3ba-5c6a-4d8b-8039-c1b6b898cfed.mp4
+
+
 API Integration
 Deployment
 Examples
