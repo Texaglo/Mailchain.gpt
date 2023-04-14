@@ -31,4 +31,8 @@ Time-saving: By automating the message creation process using OpenAI's GPT, adve
 
 **Ease of use:** With the frontend SDK, integrating Mailchain.gpt into your existing systems is simple and hassle-free.
 
+
+https://user-images.githubusercontent.com/90069572/232141814-8f130ae2-2b30-4ca7-8c84-7a54bc4db601.mp4
+
+
 In conclusion, Mailchain.gpt is a game-changing solution for Web3 communications, combining the power of OpenAI's GPT technology with the robust Mailchain protocol. By automating and scheduling messaging, Mailchain.gpt is poised to become the go-to platform for advertisers and users looking to optimize their Web3 communications. Embrace the future of messaging and experience the benefits of Mailchain.gpt today.
